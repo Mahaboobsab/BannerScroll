@@ -1,0 +1,16 @@
+PODS:
+  - MLBannerView (1.1.1)
+
+DEPENDENCIES:
+  - MLBannerView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MLBannerView
+
+SPEC CHECKSUMS:
+  MLBannerView: 442c2464c161be12d1dd213c2cea99ec0b998912
+
+PODFILE CHECKSUM: 7728f1b15cf4dbe4a4f02db3aa770f16a84a7450
+
+COCOAPODS: 1.5.3

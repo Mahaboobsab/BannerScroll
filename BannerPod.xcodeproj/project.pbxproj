@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15B081653724965A6C5FB0B0 /* Pods_BannerPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A47210B98DC7BCE275BAD10 /* Pods_BannerPod.framework */; };
 		51096D6B21ED9F6C00EC3C8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51096D6A21ED9F6C00EC3C8B /* AppDelegate.swift */; };
 		51096D6D21ED9F6C00EC3C8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51096D6C21ED9F6C00EC3C8B /* ViewController.swift */; };
 		51096D7021ED9F6C00EC3C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51096D6E21ED9F6C00EC3C8B /* Main.storyboard */; };
 		51096D7221ED9F6F00EC3C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51096D7121ED9F6F00EC3C8B /* Assets.xcassets */; };
 		51096D7521ED9F6F00EC3C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51096D7321ED9F6F00EC3C8B /* LaunchScreen.storyboard */; };
+		51096D7F21EDA9D300EC3C8B /* Banner3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51096D7C21EDA9D300EC3C8B /* Banner3.jpg */; };
+		51096D8021EDA9D300EC3C8B /* Banner2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51096D7D21EDA9D300EC3C8B /* Banner2.jpg */; };
+		51096D8121EDA9D300EC3C8B /* Banner1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51096D7E21EDA9D300EC3C8B /* Banner1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06D9DB0391E5AE0B54D1D7DC /* Pods-BannerPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerPod.release.xcconfig"; path = "Pods/Target Support Files/Pods-BannerPod/Pods-BannerPod.release.xcconfig"; sourceTree = "<group>"; };
 		51096D6721ED9F6C00EC3C8B /* BannerPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BannerPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51096D6A21ED9F6C00EC3C8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51096D6C21ED9F6C00EC3C8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,11 @@
 		51096D7121ED9F6F00EC3C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51096D7421ED9F6F00EC3C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51096D7621ED9F6F00EC3C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51096D7C21EDA9D300EC3C8B /* Banner3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Banner3.jpg; sourceTree = "<group>"; };
+		51096D7D21EDA9D300EC3C8B /* Banner2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Banner2.jpg; sourceTree = "<group>"; };
+		51096D7E21EDA9D300EC3C8B /* Banner1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Banner1.jpg; sourceTree = "<group>"; };
+		7A47210B98DC7BCE275BAD10 /* Pods_BannerPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BannerPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DC33B57EAF0E1AC89F701D /* Pods-BannerPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerPod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BannerPod/Pods-BannerPod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15B081653724965A6C5FB0B0 /* Pods_BannerPod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				51096D6921ED9F6C00EC3C8B /* BannerPod */,
 				51096D6821ED9F6C00EC3C8B /* Products */,
+				F3684131E348E42FFB9F8FA8 /* Pods */,
+				5CD25F1BC4DADE3DFD30295D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +67,9 @@
 		51096D6921ED9F6C00EC3C8B /* BannerPod */ = {
 			isa = PBXGroup;
 			children = (
+				51096D7E21EDA9D300EC3C8B /* Banner1.jpg */,
+				51096D7D21EDA9D300EC3C8B /* Banner2.jpg */,
+				51096D7C21EDA9D300EC3C8B /* Banner3.jpg */,
 				51096D6A21ED9F6C00EC3C8B /* AppDelegate.swift */,
 				51096D6C21ED9F6C00EC3C8B /* ViewController.swift */,
 				51096D6E21ED9F6C00EC3C8B /* Main.storyboard */,
@@ -64,6 +80,23 @@
 			path = BannerPod;
 			sourceTree = "<group>";
 		};
+		5CD25F1BC4DADE3DFD30295D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A47210B98DC7BCE275BAD10 /* Pods_BannerPod.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3684131E348E42FFB9F8FA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6DC33B57EAF0E1AC89F701D /* Pods-BannerPod.debug.xcconfig */,
+				06D9DB0391E5AE0B54D1D7DC /* Pods-BannerPod.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51096D7921ED9F6F00EC3C8B /* Build configuration list for PBXNativeTarget "BannerPod" */;
 			buildPhases = (
+				88607AF89E4FBFCC9B3E2B11 /* [CP] Check Pods Manifest.lock */,
 				51096D6321ED9F6C00EC3C8B /* Sources */,
 				51096D6421ED9F6C00EC3C8B /* Frameworks */,
 				51096D6521ED9F6C00EC3C8B /* Resources */,
+				81C15CFA33329F49DEAF25A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,13 +157,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51096D8021EDA9D300EC3C8B /* Banner2.jpg in Resources */,
 				51096D7521ED9F6F00EC3C8B /* LaunchScreen.storyboard in Resources */,
 				51096D7221ED9F6F00EC3C8B /* Assets.xcassets in Resources */,
+				51096D8121EDA9D300EC3C8B /* Banner1.jpg in Resources */,
 				51096D7021ED9F6C00EC3C8B /* Main.storyboard in Resources */,
+				51096D7F21EDA9D300EC3C8B /* Banner3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81C15CFA33329F49DEAF25A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BannerPod/Pods-BannerPod-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MLBannerView/BannerView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BannerView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BannerPod/Pods-BannerPod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88607AF89E4FBFCC9B3E2B11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BannerPod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		51096D6321ED9F6C00EC3C8B /* Sources */ = {
@@ -280,6 +365,7 @@
 		};
 		51096D7A21ED9F6F00EC3C8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6DC33B57EAF0E1AC89F701D /* Pods-BannerPod.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +383,7 @@
 		};
 		51096D7B21ED9F6F00EC3C8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06D9DB0391E5AE0B54D1D7DC /* Pods-BannerPod.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
